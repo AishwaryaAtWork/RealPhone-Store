@@ -24,7 +24,7 @@ nav{
     flex-basis: 20%;
 }
 .logo img{
-    width: 150px;
+    width: 120px;
 }
 .nav-links{
     flex: 1;
@@ -46,15 +46,75 @@ nav{
     width: 1000px;
     position: absolute;
     top: 50%;
-    left: -10%;
+    left: 0%;
     transform: translateY(-50%);
 }
 #circle{
-    height: 710px;
-    width: 710px;
+    height: 760px;
+    width: 760px;
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: #fff;
+}
+.feature div{
+    margin-left: 20px;
+}
+.feature div p{
+    margin-top: 8px;
+    font-size: 12px;
+}
+.feature img{
+    width: 48px;
+}
+.one{
+    top: 320px;
+    right: 35px;
+}
+.two{
+    top: 120px;
+    left: 280px;
+}
+.three{
+    bottom: 365px;
+    left: 25px;
+}
+.four{
+    bottom: 110px;
+    right: 260px;
+}
+.mobile{
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 28%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* control section */
+.controls{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+}
+#upBtn{
+    width: 15px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
 }
